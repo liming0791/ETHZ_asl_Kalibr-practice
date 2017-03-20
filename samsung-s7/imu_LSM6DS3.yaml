@@ -1,0 +1,10 @@
+rostopic: /imu
+update_rate: 50.0 #Hz
+
+accelerometer_noise_density: 0.000011 #continous
+accelerometer_random_walk: 0.00000011
+gyroscope_noise_density: 0.007 #continous
+gyroscope_random_walk: 0.000007
+
+
+

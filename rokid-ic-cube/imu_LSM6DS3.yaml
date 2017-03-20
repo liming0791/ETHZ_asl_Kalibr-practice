@@ -1,0 +1,10 @@
+rostopic: /adafruit_imu/imu_data
+update_rate: 231 #Hz
+
+accelerometer_noise_density: 0.0011 #continous
+accelerometer_random_walk: 0.000011
+gyroscope_noise_density: 0.07 #continous
+gyroscope_random_walk: 0.00007
+
+
+

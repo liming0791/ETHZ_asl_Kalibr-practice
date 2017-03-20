@@ -1,0 +1,102 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/liming/Desktop/face_pp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b41a1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b41a1.dir/build.make CMakeFiles/cmTC_b41a1.dir/build
+make[1]: Entering directory `/home/liming/Desktop/face_pp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b41a1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_b41a1.dir/CheckSymbolExists.c.o   -c /home/liming/Desktop/face_pp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b41a1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b41a1.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_b41a1.dir/CheckSymbolExists.c.o  -o cmTC_b41a1 -rdynamic 
+CMakeFiles/cmTC_b41a1.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_b41a1] Error 1
+make[1]: Leaving directory `/home/liming/Desktop/face_pp/CMakeFiles/CMakeTmp'
+make: *** [cmTC_b41a1/fast] Error 2
+
+File /home/liming/Desktop/face_pp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/liming/Desktop/face_pp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e262/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e262.dir/build.make CMakeFiles/cmTC_3e262.dir/build
+make[1]: Entering directory `/home/liming/Desktop/face_pp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e262.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3e262.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3e262
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e262.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_3e262.dir/CheckFunctionExists.c.o  -o cmTC_3e262 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_3e262] Error 1
+make[1]: Leaving directory `/home/liming/Desktop/face_pp/CMakeFiles/CMakeTmp'
+make: *** [cmTC_3e262/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/liming/Kalibr_Practice/bin2images/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0ff3e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0ff3e.dir/build.make CMakeFiles/cmTC_0ff3e.dir/build
+make[1]: Entering directory `/home/liming/Kalibr_Practice/bin2images/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ff3e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_0ff3e.dir/CheckSymbolExists.c.o   -c /home/liming/Kalibr_Practice/bin2images/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0ff3e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ff3e.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_0ff3e.dir/CheckSymbolExists.c.o  -o cmTC_0ff3e -rdynamic 
+CMakeFiles/cmTC_0ff3e.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_0ff3e] Error 1
+make[1]: Leaving directory `/home/liming/Kalibr_Practice/bin2images/CMakeFiles/CMakeTmp'
+make: *** [cmTC_0ff3e/fast] Error 2
+
+File /home/liming/Kalibr_Practice/bin2images/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/liming/Kalibr_Practice/bin2images/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ec4d0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ec4d0.dir/build.make CMakeFiles/cmTC_ec4d0.dir/build
+make[1]: Entering directory `/home/liming/Kalibr_Practice/bin2images/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec4d0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ec4d0.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ec4d0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec4d0.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ec4d0.dir/CheckFunctionExists.c.o  -o cmTC_ec4d0 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_ec4d0] Error 1
+make[1]: Leaving directory `/home/liming/Kalibr_Practice/bin2images/CMakeFiles/CMakeTmp'
+make: *** [cmTC_ec4d0/fast] Error 2
+
+
